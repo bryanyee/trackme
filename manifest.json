@@ -1,0 +1,12 @@
+{
+  "name": "Trackme",
+  "description": "Helper tool for the Pivotal Tracker - GitHub integration",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.pivotaltracker.com/n/projects/*/stories/*"],
+      "js": ["pivotalTracker.js"]
+    }
+  ]
+}
