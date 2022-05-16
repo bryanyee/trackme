@@ -33,6 +33,7 @@ function copyBranchNameToClipboard() {
   }, 2000);
 }
 
+
 function appendBranchNameButton() {
   // Create the html containing the button
   const htmlContent = createHtmlContent();
