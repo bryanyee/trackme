@@ -11,6 +11,7 @@ const { waitForContent } = require('./utilities.js');
 // e.g. 123456789/feature/hello-my-feature
 
 
+
 function getTrackerIdFromUrl(url) {
   const branchNameRegex = new RegExp(/(\d{9})\/(feature|bug|chore)[\w-]+/g);
   const branchNameMatch = url.match(branchNameRegex);
