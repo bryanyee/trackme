@@ -1,4 +1,5 @@
 
+
 function createHtmlContent() {
   const htmlContent = document.createElement('div');
   htmlContent.setAttribute('id', 'branch-name-section');
