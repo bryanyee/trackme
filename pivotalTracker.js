@@ -1,4 +1,3 @@
-
 function createHtmlContent() {
   const htmlContent = document.createElement('div');
   htmlContent.setAttribute('id', 'branch-name-section');
@@ -48,13 +47,4 @@ function appendBranchNameButton() {
   navSection.after(htmlContent);
 }
 
-function start() {
-  const interval = setInterval(function() {
-    if (document.querySelector('.project') !== null) {
-      appendBranchNameButton();
-      clearInterval(interval);
-    }
-  }, 1000);
-}
-
-start();
+waitForContent('.project', 500, appendBranchNameButton);

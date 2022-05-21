@@ -6,7 +6,11 @@
   "content_scripts": [
     {
       "matches": ["https://www.pivotaltracker.com/n/projects/*/stories/*"],
-      "js": ["pivotalTracker.js"]
+      "js": ["utilities.js", "pivotalTracker.js"]
+    },
+    {
+      "matches": ["https://github.com/*/*/compare/*"],
+      "js": ["utilities.js", "github.js"]
     }
   ]
 }
