@@ -12,5 +12,8 @@
       "matches": ["https://github.com/*/*/compare/*"],
       "js": ["utilities.js", "github.js"]
     }
-  ]
+  ],
+  "icons": {
+    "128": "assets/track.png"
+  }
 }

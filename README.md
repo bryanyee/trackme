@@ -16,3 +16,6 @@ e.g. 123456789/feature/hello-my-feature
 - Open the options menu in the top right corner of a Chrome browser > "More Tools" > "Extensions".
 - Click "Load Unpacked".
 - Select the `plugins` folder in the repo.
+
+### Icon Attribution
+Track icons created by [Freepik - Flaticon](https://www.flaticon.com/free-icons/track)
